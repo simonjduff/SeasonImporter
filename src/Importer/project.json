@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true
+  },
+  "dependencies": {},
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.1.0"
+        },
+        "Microsoft.Extensions.PlatformAbstractions": "1.1.0",
+        "Microsoft.Extensions.SecretManager.Tools": "1.1.0-preview4-final",
+        "Microsoft.Extensions.Configuration.UserSecrets": "1.1.1",
+        "Microsoft.Extensions.Configuration.EnvironmentVariables":  "1.1.1",
+        "WindowsAzure.Storage": "7.2.1",
+        "Newtonsoft.Json": "9.0.1"
+      },
+      "imports": ["dnxcore50","portable-net452+win81"]
+    }
+  },
+  "tools": {
+    "Microsoft.Extensions.SecretManager.Tools": "1.1.0-preview4-final"
+  }
+}
